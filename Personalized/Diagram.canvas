@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"d6db1c73be58ae47","x":-240,"y":-300,"width":250,"height":60,"color":"4","type":"text","text":"Linux Personalization"},
+		{"id":"99d3ca8011b54926","x":200,"y":-140,"width":250,"height":60,"type":"text","text":"Theme"},
+		{"id":"f5c747177a57f71c","x":-480,"y":-140,"width":250,"height":60,"type":"text","text":"Dock\n"},
+		{"id":"f4d40e31611e27dc","type":"text","text":"Panel","x":-140,"y":-140,"width":250,"height":60},
+		{"id":"a04d3b5db6cbbf6b","x":-580,"y":20,"width":250,"height":60,"type":"text","text":"Dash-to-Dock"},
+		{"id":"91de9a18a7e366f2","x":540,"y":-140,"width":250,"height":60,"type":"text","text":"Login Screen"},
+		{"id":"81562d747eab8361","x":-435,"y":169,"width":250,"height":63,"type":"text","text":"One Thing"},
+		{"id":"a226650bf307f662","x":-330,"y":292,"width":250,"height":60,"type":"text","text":"Logo Menu"},
+		{"id":"cd824822a52f8b06","x":-15,"y":292,"width":250,"height":50,"type":"text","text":"Remove App Menu"},
+		{"id":"3b4c44b443d68766","x":-80,"y":169,"width":250,"height":60,"type":"text","text":"Blur my Shell"},
+		{"id":"731f8989ce122902","x":200,"y":40,"width":250,"height":60,"type":"text","text":"Whitesur "},
+		{"id":"a3a051a8d8225f74","x":540,"y":70,"width":250,"height":60,"type":"text","text":"Loginized"},
+		{"id":"743816f769138f6d","x":829,"y":-133,"width":250,"height":60,"type":"text","text":"Lock Screen"},
+		{"id":"6f083e3c7f34ea79","x":829,"y":70,"width":250,"height":60,"type":"text","text":"Control Blur Effect on Lock Screen"}
+	],
+	"edges":[
+		{"id":"d7ac8deb3442d56b","fromNode":"d6db1c73be58ae47","fromSide":"bottom","toNode":"f5c747177a57f71c","toSide":"top"},
+		{"id":"213e6db19e3680f7","fromNode":"d6db1c73be58ae47","fromSide":"bottom","toNode":"f4d40e31611e27dc","toSide":"top"},
+		{"id":"dd5867f9db295bbf","fromNode":"d6db1c73be58ae47","fromSide":"bottom","toNode":"99d3ca8011b54926","toSide":"top"},
+		{"id":"8debd7a7b7cee95e","fromNode":"f5c747177a57f71c","fromSide":"bottom","toNode":"a04d3b5db6cbbf6b","toSide":"top"},
+		{"id":"d0e6e4100342f87b","fromNode":"f4d40e31611e27dc","fromSide":"bottom","toNode":"cd824822a52f8b06","toSide":"top"},
+		{"id":"a25ad2edacc0db43","fromNode":"f4d40e31611e27dc","fromSide":"bottom","toNode":"3b4c44b443d68766","toSide":"top"},
+		{"id":"335f933e97764343","fromNode":"f4d40e31611e27dc","fromSide":"bottom","toNode":"a226650bf307f662","toSide":"top"},
+		{"id":"05e0580130d2dea3","fromNode":"f4d40e31611e27dc","fromSide":"bottom","toNode":"81562d747eab8361","toSide":"top"},
+		{"id":"cb1e86d25a9b04cc","fromNode":"99d3ca8011b54926","fromSide":"bottom","toNode":"731f8989ce122902","toSide":"top"},
+		{"id":"d0c19e6c8507dcd4","fromNode":"91de9a18a7e366f2","fromSide":"bottom","toNode":"a3a051a8d8225f74","toSide":"top"},
+		{"id":"fcabe4b579a942fe","fromNode":"743816f769138f6d","fromSide":"bottom","toNode":"6f083e3c7f34ea79","toSide":"top"},
+		{"id":"2800d2dcf98fe3aa","fromNode":"d6db1c73be58ae47","fromSide":"bottom","toNode":"91de9a18a7e366f2","toSide":"top"},
+		{"id":"52066826191d5f6c","fromNode":"d6db1c73be58ae47","fromSide":"bottom","toNode":"743816f769138f6d","toSide":"top"}
+	]
+}

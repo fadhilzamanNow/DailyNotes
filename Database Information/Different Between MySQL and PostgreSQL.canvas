@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"122d1867c6610f69","type":"text","text":"MySQL","x":-479,"y":-300,"width":250,"height":60},
+		{"id":"70116a3103038d2d","type":"text","text":"DDL","x":-820,"y":-130,"width":250,"height":60},
+		{"id":"333444aec95c9da7","type":"text","text":"PostgreSQL","x":420,"y":-292,"width":250,"height":60},
+		{"id":"a363a291471de403","x":-1460,"y":60,"width":390,"height":180,"type":"text","text":"DataType \n\nnumber = INT(length)\nstring = CHAR or VARCHAR(length)\ndecimal = NUMERIC(precision,value)\nDATE = DATE or TIMETAMP\n\n"},
+		{"id":"27a67c18714ad8a3","x":-1040,"y":60,"width":287,"height":125,"type":"text","text":"DESCRIBE TABLES \n\n-psql\nd \"nama tabel\"\n\n-gui clients\n\nSELECT\ncolumn_name,\ndata_type,\ncharacter_maximum_length,\nis_nullable,\ncolumn_default FROM information_schema.columnsWHERE table_name = 'cars';\n"},
+		{"id":"a3046b1dd5eb78a4","x":-729,"y":63,"width":250,"height":177,"type":"text","text":"SHOW TABLES\n-psql\n dt in psql\n \n-gui client\nselect * from pg_tables"},
+		{"id":"8043d6b10cb6c061","type":"text","text":"DML\n\ninsert into table (colom) values (value)\n\n","x":-20,"y":-130,"width":250,"height":130},
+		{"id":"4bf01121459972c4","type":"text","text":"DataType \n\nnumber = INT(length)\nstring = CHAR or VARCHAR(length)\ndecimal = NUMERIC(precision,value)\nDATE = DATE or TIMETAMP\n\n","x":280,"y":60,"width":390,"height":180},
+		{"id":"96103e411709a8e7","type":"text","text":"DESCRIBE TABLES \n\n-CLI\ndesc 'nama_tables'\nshow create table 'nama_tables'","x":700,"y":60,"width":287,"height":180},
+		{"id":"f0c6cee1417a1e17","type":"text","text":"SHOW TABLES\n-CLI/GUI CLIENT\nshow tables;\n ","x":1011,"y":63,"width":250,"height":122},
+		{"id":"4b4b1308391e94b4","type":"text","text":"DDL","x":520,"y":-130,"width":250,"height":60},
+		{"id":"a1cfa724a0f9484a","x":-440,"y":63,"width":250,"height":460,"type":"text","text":"STRUCTURE\n\n\ncreate table namatabel( )\n\nALTER\n\nADD\nalter table add\n\nMODIFY\nalter table modify\n\nDROP\nalter table drop\n\nRENAME\nalter table namatabel rename lama to baru"},
+		{"id":"10735f1a2ca7186c","type":"text","text":"STRUCTURE\n\n\ncreate table namatabel( )\n\nALTER\n\nADD\nalter table add\n\nMODIFY\nalter table modify\n\nDROP\nalter table drop\n\nRENAME\nalter table namatabel lama rename baru","x":1300,"y":63,"width":250,"height":460},
+		{"id":"fb0266c3fb0f42c9","type":"text","text":"DQL\n\n\nselect * from namatabel","x":-20,"y":220,"width":250,"height":147}
+	],
+	"edges":[
+		{"id":"4d0739af5c03e2d8","fromNode":"333444aec95c9da7","fromSide":"bottom","toNode":"8043d6b10cb6c061","toSide":"top"},
+		{"id":"b51fbbe0b4e44746","fromNode":"122d1867c6610f69","fromSide":"bottom","toNode":"fb0266c3fb0f42c9","toSide":"top"},
+		{"id":"0e5b011dbe8cca69","fromNode":"122d1867c6610f69","fromSide":"bottom","toNode":"70116a3103038d2d","toSide":"top"},
+		{"id":"8d9e2eef25a4bfbf","fromNode":"122d1867c6610f69","fromSide":"bottom","toNode":"8043d6b10cb6c061","toSide":"top"},
+		{"id":"8e5e41306801274b","fromNode":"70116a3103038d2d","fromSide":"bottom","toNode":"a363a291471de403","toSide":"top"},
+		{"id":"02ceb58d16f1cefa","fromNode":"70116a3103038d2d","fromSide":"bottom","toNode":"27a67c18714ad8a3","toSide":"top"},
+		{"id":"853a59412b932cb9","fromNode":"70116a3103038d2d","fromSide":"bottom","toNode":"a3046b1dd5eb78a4","toSide":"top"},
+		{"id":"0b9754fb0fd45622","fromNode":"333444aec95c9da7","fromSide":"bottom","toNode":"fb0266c3fb0f42c9","toSide":"top"},
+		{"id":"5e78faa0581efd5d","fromNode":"4b4b1308391e94b4","fromSide":"bottom","toNode":"4bf01121459972c4","toSide":"top"},
+		{"id":"a20a138e6dc0fedd","fromNode":"4b4b1308391e94b4","fromSide":"bottom","toNode":"96103e411709a8e7","toSide":"top"},
+		{"id":"ffc3e8e0a1543359","fromNode":"4b4b1308391e94b4","fromSide":"bottom","toNode":"f0c6cee1417a1e17","toSide":"top"},
+		{"id":"84ce319c7f4ef6fb","fromNode":"333444aec95c9da7","fromSide":"bottom","toNode":"4b4b1308391e94b4","toSide":"top"},
+		{"id":"e64437d504ef0bf4","fromNode":"70116a3103038d2d","fromSide":"bottom","toNode":"a1cfa724a0f9484a","toSide":"top"},
+		{"id":"74f0b22062a92b70","fromNode":"4b4b1308391e94b4","fromSide":"bottom","toNode":"10735f1a2ca7186c","toSide":"top"}
+	]
+}
