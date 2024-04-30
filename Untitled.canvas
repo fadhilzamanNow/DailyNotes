@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"7828182a06a38ad4","type":"text","text":"Hadoop","x":-200,"y":-360,"width":250,"height":60},
+		{"id":"29c88c2d45e49e5f","type":"text","text":"MapReduce","x":-400,"y":-140,"width":250,"height":60},
+		{"id":"75c1fc0034975cc5","x":-40,"y":-540,"width":250,"height":60,"type":"text","text":"Analisis Big Data"}
+	],
+	"edges":[
+		{"id":"1a5b032a27bc4f85","fromNode":"7828182a06a38ad4","fromSide":"bottom","toNode":"29c88c2d45e49e5f","toSide":"top","label":"Menggunakan Algoritma"},
+		{"id":"f0bf357c652d4ba8","fromNode":"75c1fc0034975cc5","fromSide":"bottom","toNode":"7828182a06a38ad4","toSide":"top"}
+	]
+}

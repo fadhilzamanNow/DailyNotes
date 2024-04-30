@@ -23,22 +23,51 @@
             }
           },
           {
-            "id": "8d5b92eb54542bec",
+            "id": "ca7d7934b35c5815",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Database Information/Different Between MySQL and PostgreSQL.canvas",
-                "viewState": {
-                  "x": 211.22541764602613,
-                  "y": -52.66108472088064,
-                  "zoom": -1.6
-                }
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
               }
+            }
+          },
+          {
+            "id": "6dc78648a9b41c65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4370ad00136f42e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5675ebea2dd91d01",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database Information/Different Between MySQL and PostgreSQL.canvas",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database Information/Different Between MySQL and PostgreSQL.canvas",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database Information/Different Between MySQL and PostgreSQL.canvas"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -165,13 +194,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d5b92eb54542bec",
+  "active": "6dc78648a9b41c65",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Database Information/Different Between MySQL and PostgreSQL.canvas",
-    "Personalized/Diagram.canvas",
-    "Personalized/Linux Personalization.md",
     "Untitled.canvas",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Personalized/Diagram.canvas",
+    "Database Information/Different Between MySQL and PostgreSQL.canvas",
+    "Untitled.md",
+    "id_untukgithub.pub",
+    "id_untukgithub",
+    "Personalized/Linux Personalization.md",
     "Database Information",
     "Personalized"
   ]
